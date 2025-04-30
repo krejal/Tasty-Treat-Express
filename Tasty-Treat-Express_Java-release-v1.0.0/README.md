@@ -3,8 +3,6 @@
 ## Overview
 **Tasty Treat Express** is a dynamic and user-friendly online food ordering platform designed to provide a seamless experience for both customers and restaurant owners. The system allows customers to browse menus, place orders, rate restaurants, and track deliveries, while restaurant owners can manage menus, handle orders, and view reports. This project was developed using an Agile methodology and focuses on creating an engaging and efficient platform for all users.
 
-[**View Project Presentation**](https://prezi.com/view/cIiSn0JAZuczMYCRpCTK/)
-
 ## Features
 
 ### 1. **User Management**
@@ -76,4 +74,18 @@ To run this project locally, you'll need to have the following installed:
 - **IDE** (e.g., IntelliJ IDEA, Eclipse, Spring Tool Suite)
 - **Google Maps API Key** for location tracking
   
+## Run This Project in Spring Tool Suite 
+Import Project into STS,
+Open Spring Tool Suite (STS),
+Go to File → Import,
+Choose: Existing Maven Projects,
+Click Next.
 
+Browse to the folder you cloned or extracted,
+Click Finish.
+
+Configure the Database,
+Create the database in MySQL.
+
+In STS, right-click on the main class (TastyTreatExpressApplication.java),
+Select Run As → Spring Boot App.
